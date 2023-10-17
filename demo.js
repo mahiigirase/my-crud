@@ -6,7 +6,7 @@ const userRoute = require('./Route/userRoute')
 const employeeRoute = require('./Route/employeeRoute')
 const bookRoute = require('./Route/bookRoute')
 require('dotenv/config');
-const cors = require('cors')
+const cors = require('cors');
 
 const demo = express()
 demo.use(cors())
