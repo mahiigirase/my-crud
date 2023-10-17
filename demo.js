@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require ('express')
 const mongoose = require('mongoose')
 const teacherRoute = require('./Route/teacherRoute');
 const studRoute = require('./Route/studRoute')
@@ -9,6 +9,7 @@ require('dotenv/config');
 const cors = require('cors');
 
 const demo = express()
+
 demo.use(cors())
 
 
